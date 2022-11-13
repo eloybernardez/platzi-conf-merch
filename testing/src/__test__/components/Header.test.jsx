@@ -25,3 +25,14 @@ describe("<Header/>", () => {
     expect(headerTitle).toBeDefined();
   });
 });
+
+describe("Header Snapshot", () => {
+  it("Comprobar el Snapshot de Header", () => {
+    const { asFragment } = render(
+      <ProviderMock>
+        <Header />
+      </ProviderMock>
+    );
+    expect(asFragment(<Header />)).toMatchSnapshot();
+  });
+});

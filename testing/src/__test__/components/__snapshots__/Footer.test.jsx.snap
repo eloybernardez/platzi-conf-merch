@@ -1,0 +1,20 @@
+// Vitest Snapshot v1
+
+exports[`Footer Snapshot > Comprobar la UI del componente Footer 1`] = `
+<DocumentFragment>
+  <div
+    class="Footer"
+  >
+    <p
+      class="Footer-title"
+    >
+      Platzi Store
+    </p>
+    <p
+      class="Footer-copy"
+    >
+      Todos los Izquierdos Reservados
+    </p>
+  </div>
+</DocumentFragment>
+`;

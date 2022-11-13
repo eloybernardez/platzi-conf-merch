@@ -15,3 +15,10 @@ describe("<Footer/>", () => {
     expect(title).toBeDefined();
   });
 });
+
+describe("Footer Snapshot", () => {
+  it("Comprobar la UI del componente Footer", () => {
+    const { asFragment } = render(<Footer />);
+    expect(asFragment(<Footer />)).toMatchSnapshot();
+  });
+});

@@ -1,0 +1,30 @@
+// Vitest Snapshot v1
+
+exports[`Header Snapshot > Comprobar el Snapshot de Header 1`] = `
+<DocumentFragment>
+  <div
+    class="Header"
+  >
+    <h1
+      class="Header-title"
+    >
+      <a
+        href="/"
+      >
+        Platzi Store
+      </a>
+    </h1>
+    <div
+      class="Header-checkout"
+    >
+      <a
+        href="/checkout"
+      >
+        <i
+          class="fas fa-shopping-basket"
+        />
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
