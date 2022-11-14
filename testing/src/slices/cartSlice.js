@@ -18,6 +18,8 @@ export const cartSlice = createSlice({
 
 const { actions, reducer } = cartSlice;
 
+// console.log(cartSlice);
+
 // Action creators are generated for each case reducer function
 export const { AddToCart, RemoveFromCart } = cartSlice.actions;
 

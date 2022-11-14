@@ -12,16 +12,22 @@ const Products = () => {
     dispatch(AddToCart(product));
   };
 
+  const isEmpty = products.length === 0;
+
   return (
     <div className="Products">
       <div className="Products-items">
-        {products?.map((product) => (
-          <Product
-            key={product.id}
-            product={product}
-            handleAddToCart={handleAddToCart}
-          />
-        ))}
+        {!isEmpty ? (
+          products?.map((product) => (
+            <Product
+              key={product.id}
+              product={product}
+              handleAddToCart={handleAddToCart}
+            />
+          ))
+        ) : (
+          <h1>No hay productos</h1>
+        )}
       </div>
     </div>
   );

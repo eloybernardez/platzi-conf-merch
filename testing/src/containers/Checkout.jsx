@@ -36,7 +36,9 @@ const Checkout = () => {
       </div>
       {cart?.length > 0 && (
         <div className="Checkout-sidebar">
-          <h3>{`Precio Total: $ ${handleSumTotal()}`}</h3>
+          <h3>
+            Precio Total: <span>${handleSumTotal()}</span>
+          </h3>
         </div>
       )}
     </div>
