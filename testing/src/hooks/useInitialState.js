@@ -14,7 +14,7 @@ const useInitialState = () => {
     async function fetchFunction() {
       const response = await fetch(API);
       const data = await response.json();
-      console.log(data);
+
       return data;
     }
 
