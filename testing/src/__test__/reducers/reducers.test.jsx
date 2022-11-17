@@ -1,4 +1,3 @@
-import React from "react";
 import { describe, expect, it } from "vitest";
 import { cartReducer } from "../../slices/cartSlice";
 import ProductMock from "../../__mocks__/ProductMock";
